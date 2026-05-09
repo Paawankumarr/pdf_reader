@@ -1,0 +1,19 @@
+User Uploads PDF
+        ↓
+PDF Loader Reads PDF
+        ↓
+Text Splitter Creates Chunks
+        ↓
+Embeddings Convert Text → Vectors
+        ↓
+FAISS Stores Vectors
+        ↓
+User Asks Question
+        ↓
+Similarity Search Finds Relevant Chunks
+        ↓
+Prompt Created with Context + Question
+        ↓
+ChatOpenAI Generates Answer
+        ↓
+Answer Displayed in Streamlit
